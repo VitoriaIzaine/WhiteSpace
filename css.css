@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    height: 65px;
+    background-color: #043873;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+
+.itemsMenu {
+    color: #FFFFFF;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.login {
+    background-color: #FFE492;
+    color: #043873;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+
+.buttonTry {
+    background-color: #4F9CF9;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+
+.textGet {
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.textProject{
+    font-size: 18px;
+    padding-bottom: 45px;
+}
+.firts {
+    height: 600px;
+    background-image: url(./img/Hero-section.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bloco-firts {
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 25px;
+
+}
